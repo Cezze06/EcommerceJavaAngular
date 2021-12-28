@@ -21,8 +21,6 @@ export class ProductListComponent implements OnInit {
     this.productService.getProductList().subscribe(
       data => {
         this.products = data;
-        //My data in array
-        //Reason for commit
       }
     )
   }
