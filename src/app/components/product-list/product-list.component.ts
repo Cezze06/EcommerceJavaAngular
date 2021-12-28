@@ -22,6 +22,7 @@ export class ProductListComponent implements OnInit {
       data => {
         this.products = data;
         //My data in array
+        //Reason for commit
       }
     )
   }
